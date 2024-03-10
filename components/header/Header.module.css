@@ -1,0 +1,35 @@
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue; 
+    padding: 10px 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+
+
+
+  .logo {
+    margin-right: auto; 
+    margin-left: 150px; 
+  
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+      margin-left: 100px;
+    }
+  
+    /* Media query for even smaller screens */
+    @media (max-width: 576px) {
+      margin-left: 50px; 
+    }
+  }
+  
+  .nav {
+    /* Add styles for navigation if needed */
+  }
+  

@@ -1,7 +1,8 @@
+import Slider from "../../components/slider/Slider";
 
 
 export default function Home() {
     return <>
-       <p>Home is part of landing page</p>
+       < Slider />
     </>;
   }
