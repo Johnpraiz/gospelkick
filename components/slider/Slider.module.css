@@ -2,27 +2,27 @@
 .slider {
   position: fixed;
   overflow: hidden;
-  width: 100vw; /* Make width touch the edges of the screen */
+  width: 100vw; 
 }
 
 .slides {
   display: flex;
-  transition: transform 0.5s ease; /* Add transition for smooth slide effect */
+  transition: transform 0.5s ease; 
 }
 
 .slide {
   flex: 0 0 auto;
-  width: 100vw; /* Make width touch the edges of the screen */
+  width: 100vw; 
 }
 
 .image {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  height: auto; 
 }
 
 .prev,
 .next {
-  display: none; /* Hide previous and next buttons */
+  display: none;
 }
 
 
