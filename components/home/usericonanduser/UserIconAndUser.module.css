@@ -1,0 +1,32 @@
+.mt10 {
+  margin-top: 0rem;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; 
+  background-color: white; 
+  color: black;
+}
+
+.flexItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.fontBold {
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.gap {
+  margin-right: 1px;
+}
+
+@media (max-width: 767px) {
+  .flexContainer {
+      flex-direction: column; 
+  }
+}

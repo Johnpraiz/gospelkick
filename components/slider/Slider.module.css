@@ -1,23 +1,23 @@
-
 .slider {
-  position: fixed;
+  position: relative;
   overflow: hidden;
-  width: 100vw; 
+  width: 100vw;
+  height: auto;
 }
 
 .slides {
   display: flex;
-  transition: transform 0.5s ease; 
+  transition: transform 0.5s ease;
 }
 
 .slide {
   flex: 0 0 auto;
-  width: 100vw; 
+  width: 100vw;
 }
 
 .image {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .prev,
@@ -25,4 +25,22 @@
   display: none;
 }
 
+/* Media queries for responsiveness */
 
+/* Tablet */
+@media (max-width: 768px) {
+  .slide {
+    width: 80vw; /* Adjust as needed */
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .slides {
+    flex-wrap: wrap;
+  }
+
+  .slide {
+    width: 100vw; /* Adjust as needed */
+  }
+}

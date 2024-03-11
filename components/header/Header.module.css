@@ -1,36 +1,61 @@
+/* Header.module.css */
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: blue; 
-    padding: 10px 20px; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    /* border-top-left-radius: 10px; */
-  }
-  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
+.logo {
+  margin-left: 30px;
+}
 
+.authButtons {
+  margin-right: 30px;
+}
 
+.loginButton,
+.createAccountButton {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginButton:hover,
+.createAccountButton:hover {
+  background-color: darkblue;
+  color: white
+}
+
+@media (max-width: 768px) {
   .logo {
-    margin-right: auto; 
-    margin-left: 150px; 
-  
-    /* Media query for smaller screens */
-    @media (max-width: 768px) {
-      margin-left: 100px;
-    }
-  
-    /* Media query for even smaller screens */
-    @media (max-width: 576px) {
-      margin-left: 50px; 
-    }
+    margin-left: 20px;
   }
-  
-  .nav {
-    /* Add styles for navigation if needed */
+
+  .authButtons {
+    margin-right: 20px;
   }
-  
+}
+
+@media (max-width: 576px) {
+  .logo {
+    margin-left: 10px;
+  }
+
+  .authButtons {
+    margin-right: 10px;
+  }
+}
+
+.loginButton {
+  margin-right: 6px;
+}

@@ -1,7 +1,5 @@
-
 import Image from 'next/image';
 import styles from './Header.module.css';
-//import gospelkicklogo from "../../image/gospelkicklogo.jpg"
 
 const Header = () => {
   return (
@@ -18,6 +16,10 @@ const Header = () => {
       <nav className={styles.nav}>
         {/* Add your navigation links here */}
       </nav>
+      <div className={styles.authButtons}>
+        <button className={styles.loginButton}>Login</button>
+        <button className={styles.createAccountButton}>Create Account</button>
+      </div>
     </header>
   );
 };

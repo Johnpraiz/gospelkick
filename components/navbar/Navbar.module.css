@@ -1,37 +1,76 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    color: blue;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: blue;
+  padding: 10px 20px;
+}
+
+.logo a {
+  color: blue;
+  text-decoration: none;
+}
+
+.navLinks a {
+  margin-right: 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: darkblue;
+}
+
+.search input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.search button {
+  padding: 8px 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: darkblue;
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
   }
-  
-  .logo a {
-    color: blue;
-    text-decoration: none;
+
+  .logo {
+    margin-bottom: 20px;
   }
-  
+
+  .search {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
   .navLinks a {
-    margin-right: 20px;
-    color: blue;
-    text-decoration: none;
-  }
-  
-  .search input {
-    padding: 8px;
     margin-right: 10px;
   }
-  
+
+  .search input {
+    padding: 6px;
+    margin-right: 6px;
+  }
+
   .search button {
-    padding: 8px 12px;
-    background-color: blue;
-    color: white;
-    border: none;
-    cursor: pointer;
+    padding: 6px 10px;
   }
-  
-  .search button:hover {
-    background-color: darkblue;
-  }
-  
+}

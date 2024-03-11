@@ -25,6 +25,7 @@ const Slider = () => {
   };
 
   return (
+    <div className={styles.container}>
     <div className={styles.slider}>
       <div className={styles.slides} style={{ transform: `translateX(-${currentImage * 100}%)` }}>
         {images.map((image, index) => (
@@ -33,6 +34,7 @@ const Slider = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
