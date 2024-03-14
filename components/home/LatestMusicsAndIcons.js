@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 
 const LatestMusicsAndIcons = () => {
@@ -11,12 +12,14 @@ const LatestMusicsAndIcons = () => {
           </div>
         </div>
         <div className="text-center">
-          <div className="w-12 h-12 relative">
-            <Image src="/apple-music-508x276.webp" alt="apple music icon" width={50} height={50} />
+
+          <div className="w-16 h-16 relative"> 
+           <Image src="/apple-music-508x276.webp" alt="apple music icon" width={60} height={80} /> 
           </div>
+
         </div>
         <div className="text-center">
-          <div className="w-12 h-12 relative">
+          <div className="w-12 h-12 relative bg-white">
             <Image src="/00.jpg" alt="Icon" width={48} height={48} />
           </div>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import { data } from "../../../data/audiomack";
+import { data } from "../../../data/boomplay";
 import Image from 'next/image';
 
-const TrendingOnAudiomack = () => {
+const TrendingOnBoomplay = () => {
     return (
         <div className="px-6">
           <div className="flex flex-wrap -mx-1">
@@ -29,7 +29,7 @@ const TrendingOnAudiomack = () => {
       );
 };
 
-export default TrendingOnAudiomack;
+export default TrendingOnBoomplay;
 
 
 

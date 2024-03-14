@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image'; // Import Image component
 import styles from './Slider.module.css'; 
 
 const Slider = () => {
@@ -12,7 +13,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-    }, 5000); // 5 seconds
+    }, 5000); 
     return () => clearInterval(interval);
   }, [currentImage, images.length]);
 
@@ -26,18 +27,21 @@ const Slider = () => {
 
   return (
     <div className={styles.container}>
-    <div className={styles.slider}>
-      <div className={styles.slides} style={{ transform: `translateX(-${currentImage * 100}%)` }}>
-        {images.map((image, index) => (
-          <div className={styles.slide} key={index}>
-            <img src={image} alt={`Slide ${index}`} className={styles.image} />
-          </div>
-        ))}
+      <div className={styles.slider}>
+        <div className={styles.slides} style={{ transform: `translateX(-${currentImage * 100}%)` }}>
+          {images.map((image, index) => (
+            <div className={styles.slide} key={index}>
+              <Image src={image} alt={`Slide ${index}`} width={500} height={300} layout="responsive" /> 
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 };
 
 export default Slider;
+
+
+
 

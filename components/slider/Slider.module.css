@@ -37,10 +37,17 @@
 /* Mobile */
 @media (max-width: 576px) {
   .slides {
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent wrap to ensure sliding effect */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   }
 
   .slide {
-    width: 100vw; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
+    flex: 0 0 auto; /* Ensure equal width for each slide */
+    min-width: 100%; /* Ensure each slide occupies full viewport width */
   }
 }
+
+
+
