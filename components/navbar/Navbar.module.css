@@ -5,6 +5,7 @@
   background-color: white;
   color: blue;
   padding: 10px 20px;
+  margin-top: 70px;
 }
 
 .logo a {
@@ -35,6 +36,8 @@
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid blue;
 }
 
 .search button:hover {

@@ -1,14 +1,14 @@
-import Header from '../components/header/Header';
 import '../styles/globals.css';
+import Copyright from "../components/home/Copyright"
 
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
-      <div style={{ paddingTop: '70px' }}> 
+      <div > 
         <Component {...pageProps} />
       </div>
+      <Copyright/>
     </>
   );
 }
