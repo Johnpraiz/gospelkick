@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         primary: '#2563eb', // Blue-600
         secondary: '#1e40af', // Blue-800
-        customOrange: "#ff7700" // Orange-500
+        customOrange: "#ff7700", // Orange-500
+         darkGray: "#A9A9A9"
       },
     },
   },

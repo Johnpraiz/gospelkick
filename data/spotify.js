@@ -1,9 +1,9 @@
 export const data = [
     {
-     "alt": "Trending on spotify image",
-     "src":"/fridaynaija.jpg",
-     "title":"The Cure",
-     "description":"Second Song"
+     "alt": "Hours of praise",
+     "src":"/hours-of-praise.jpeg",
+     "title":"Hours of praise",
+     "description":"Playlist"
     },
     {
      "alt": "Trending on spotify image",
@@ -38,3 +38,4 @@ export const data = [
  
  
  ]
+

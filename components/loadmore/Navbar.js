@@ -44,7 +44,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center bg-black text-primary p-2 md:p-4">
       <div className="logo">
         <Link href="/">
-          <span className="text-white ml-4">GOSPELKICK</span>
+          <span className="text-white ml-4 hover:text-primary">GOSPELKICK</span>
         </Link>
       </div>
      
@@ -56,16 +56,16 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      
+       
       <div className="hidden md:flex mr-4">
         <Link href="/afro-beat">
-          <span className="mr-4 text-blue">Afro-Beat</span>
+          <span className="mr-4 text-primary hover:text-white">Afro-Beat</span>
         </Link>
         <Link href="/christian-gospel">
-          <span className="mr-4 text-blue">Christian/Gospel</span>
+          <span className="mr-4 text-primary hover:text-white">Christian/Gospel</span>
         </Link>
         <Link href="/hip-pop">
-          <span className="text-blue">Hip-Pop</span>
+          <span className="text-primary hover:text-white">Hip-Pop</span>
         </Link>
       </div>
     </nav>

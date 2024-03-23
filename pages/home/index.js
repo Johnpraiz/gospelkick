@@ -8,8 +8,8 @@ import TrendingOnAudiomackText from "../../components/home/trendingOnAudiomack/T
 import TrendingOnAudiomack from "../../components/home/trendingOnAudiomack/TrendingOnAudiomack"
 import TrendingOnSpotifyText from "../../components/home/trendingOnSpotify/TrendingOnSpotifyText"
 import TrendingOnSpotify from "../../components/home/trendingOnSpotify/TrendingOnSpotify"
-import TrendingOnBoomplayText from "@/components/home/trendingOnBoomplay/TrendingOnBoomplayText";
-import TrendingOnBoomplay from "../../components/home/trendingOnBoomplay/TrendingOnBoomplay"
+// import TrendingOnBoomplayText from "@/components/home/trendingOnBoomplay/TrendingOnBoomplayText";
+// import TrendingOnBoomplay from "../../components/home/trendingOnBoomplay/TrendingOnBoomplay"
 import LoadMoreButton from "@/components/loadmore/LoadMore";
 import DiscoverNewMusic from "../../components/home/DiscoverNewMusic"
 import SMEService from "../../components/home/sme/OurSmeService"
@@ -18,7 +18,6 @@ import SoundcloudSection from "../../components/home/SoundCloudSection"
 import MusicLegends from "../../components/home/MusicLegends"
 import Features from "../../components/home/Features"
 import Footer from "@/components/home/Footer";
-import Copyright from "../../components/home/Copyright"
 import Header from '../../components/header/Header';
 
 
@@ -35,8 +34,8 @@ export default function Home() {
                    <TrendingOnAudiomack/>
                      <TrendingOnSpotifyText/>
                        < TrendingOnSpotify/>
-                         <TrendingOnBoomplayText/>
-                           <TrendingOnBoomplay/>
+                         {/* <TrendingOnBoomplayText/>
+                           <TrendingOnBoomplay/> */}
                         <LoadMoreButton />
                      <DiscoverNewMusic />
                    <SMEService/>

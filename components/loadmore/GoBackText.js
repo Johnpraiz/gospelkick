@@ -5,7 +5,7 @@ const GoBackText = () => {
   return (
     <h1 className='text-primary ml-10 mt-4 relative inline-block'>
       <Link href="/">
-        <span className='bg-white px-3 py-1 rounded-md border border-primary cursor-pointer hover:text-black'>
+        <span className='bg-black text-white px-3 py-1 rounded-md border border-primary cursor-pointer hover:text-customOrange'>
           Go Back
         </span>
       </Link>
