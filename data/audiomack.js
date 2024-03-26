@@ -1,57 +1,65 @@
+import generateId from "../pages/api/randomid/randomId"
+
+
 export const data = [
    {
+   "id":generateId(),
     "alt": "afro-gospel",
     "src":"/afro-gospel.jpeg",
     "title":"Afro Gospel",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/5Xt8hIs3NnFHSYMbHZWwrm?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/7ymwejbXZfgSB9UpUxD8DX?si=1b9464de37a348b5",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/afro-gospel",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/afro-gospel",
     "link":"/listentomusic"
-   
    },
    {
+      "id":generateId(),
     "alt": "Best rap song",
     "src":"/best-rap.jpeg",
     "title":"Best Rap",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/5ob1BQVpTExzYCMnwozHwF?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/5ob1BQVpTExzYCMnwozHwF?si=fc830ac78e1e4369",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/best-rap",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/best-rap",
     "link":"/listentomusic"
    },
    {
+      "id":generateId(),
     "alt": "Experience song",
     "src":"/experience.jpeg",
     "title":"Experience",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/2YTKZZY9Qz4iN1MdYelh62?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/2YTKZZY9Qz4iN1MdYelh62?si=90dca1eb2cb34947",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/experience",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/experience",
     "link":"/listentomusic"
    },
    {
+      "id":generateId(),
     "alt": "Hood rapper song",
     "src":"/hood-rapper.jpeg",
     "title":"Hood Rapper",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/2yJ0NMb83vYminup9Y6cka?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/2yJ0NMb83vYminup9Y6cka?si=94630a35bc874042",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/hood-rapper",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/hood-rapper",
     "link":"/listentomusic"
    },
    {
+      "id":generateId(),
     "alt": "All Worship song",
     "src":"/all-worship1.jpeg",
     "title":"All Worship",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/1IOOVd89yORQmIF0DJv5Pd?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/1IOOVd89yORQmIF0DJv5Pd?si=cea59966af1a48fd",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/newest-music",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/newest-music",
     "link":"/listentomusic"
    },
    {
+      "id":generateId(),
     "alt": "Naija gospel",
     "src":"/naija-gospel.jpeg",
     "title":"Naija Gospel",
     "description":"Playlist",
-    "url":"https://open.spotify.com/embed/playlist/764e5T9VJEomcF5QVktdiZ?utm_source=generator",
-    "externalUrl":"https://open.spotify.com/playlist/764e5T9VJEomcF5QVktdiZ?si=01cfd0f4169a49af",
+    "url":"https://audiomack.com/embed/gospelkick/playlist/naija-gospel",
+    "externalUrl":"https://audiomack.com/gospelkick/playlist/naija-gospel",
     "link":"/listentomusic"
    }
 
